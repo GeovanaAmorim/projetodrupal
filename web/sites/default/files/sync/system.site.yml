@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: pt-br
+uuid: b0c544c2-8a3f-4958-a79e-1d9b46998a9b
+name: 'Parques e cachoeiras'
+mail: admin@example.com
+slogan: 'Os melhores parques e cachoeiras'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: pt-br
+mail_notification: null

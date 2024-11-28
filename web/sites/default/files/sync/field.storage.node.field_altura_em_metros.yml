@@ -1,0 +1,20 @@
+uuid: 71f2d3f4-5695-492b-9192-bddc776ffc15
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_altura_em_metros
+field_name: field_altura_em_metros
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

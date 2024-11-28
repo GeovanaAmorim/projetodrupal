@@ -1,0 +1,22 @@
+uuid: f42b9f6d-38d0-476e-b78a-d3177b0f4015
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.cachoeiras
+id: node.cachoeiras.promote
+field_name: promote
+entity_type: node
+bundle: cachoeiras
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

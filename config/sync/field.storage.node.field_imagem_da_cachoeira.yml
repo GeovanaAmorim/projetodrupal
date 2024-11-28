@@ -1,0 +1,30 @@
+uuid: b1c3f256-cdff-411c-b4be-9ab3ac0a91e5
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_imagem_da_cachoeira
+field_name: field_imagem_da_cachoeira
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: 67f06c1f-b2ab-43d7-ac17-35a8233fc004
+    alt: 'Imagem ilustrativa de uma cachoeira'
+    title: 'Imagem da Cachoeira'
+    width: 612
+    height: 408
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

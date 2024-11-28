@@ -1,0 +1,29 @@
+uuid: 17fd8b79-d78a-4281-ab24-579ff9cd2272
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_localizacao
+    - node.type.parques_de_diversao
+    - taxonomy.vocabulary.localizacoes
+id: node.parques_de_diversao.field_field_localizacao
+field_name: field_field_localizacao
+entity_type: node
+bundle: parques_de_diversao
+label: Localização
+description: 'Selecione a localização a partir das opçõess disponíveis. As opções incluem as regiões como Norte, Sul, Leste e Oeste.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      localizacoes: localizacoes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

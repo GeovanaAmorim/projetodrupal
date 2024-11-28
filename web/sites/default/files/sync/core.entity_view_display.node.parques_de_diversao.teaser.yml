@@ -1,0 +1,51 @@
+uuid: 73404dc2-9b1a-458c-ab57-a830c6c74251
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.parques_de_diversao.body
+    - field.field.node.parques_de_diversao.field__nome_do_parque
+    - field.field.node.parques_de_diversao.field_atracoes_do_parque
+    - field.field.node.parques_de_diversao.field_classificacao
+    - field.field.node.parques_de_diversao.field_field_dificulade
+    - field.field.node.parques_de_diversao.field_field_localizacao
+    - field.field.node.parques_de_diversao.field_imagem_do_parque
+    - field.field.node.parques_de_diversao.field_localizacao
+    - field.field.node.parques_de_diversao.field_nome_do_parque
+    - field.field.node.parques_de_diversao.field_site_ooficial
+    - field.field.node.parques_de_diversao.layout_builder__layout
+    - node.type.parques_de_diversao
+  module:
+    - text
+    - user
+id: node.parques_de_diversao.teaser
+targetEntityType: node
+bundle: parques_de_diversao
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field__nome_do_parque: true
+  field_atracoes_do_parque: true
+  field_classificacao: true
+  field_field_dificulade: true
+  field_field_localizacao: true
+  field_imagem_do_parque: true
+  field_localizacao: true
+  field_nome_do_parque: true
+  field_site_ooficial: true
+  langcode: true
+  layout_builder__layout: true

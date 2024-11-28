@@ -1,0 +1,209 @@
+uuid: e5b533c3-357e-4481-a97a-69a130bd3855
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cachoeiras.body
+    - field.field.node.cachoeiras.field_altura_em_metros
+    - field.field.node.cachoeiras.field_campo_localizacao
+    - field.field.node.cachoeiras.field_dificulade
+    - field.field.node.cachoeiras.field_imagem_da_cachoeira
+    - field.field.node.cachoeiras.field_site_oficial
+    - node.type.cachoeiras
+  module:
+    - image
+    - layout_builder
+    - link
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          2e150e79-6379-401a-a158-afaecb43d28b:
+            uuid: 2e150e79-6379-401a-a158-afaecb43d28b
+            region: content
+            configuration:
+              id: 'extra_field_block:node:cachoeiras:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          2f576f97-e5bc-400d-9972-dbfdba1a9328:
+            uuid: 2f576f97-e5bc-400d-9972-dbfdba1a9328
+            region: content
+            configuration:
+              id: 'field_block:node:cachoeiras:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          ffbee142-32bf-4131-8d5b-a37cf7376b6a:
+            uuid: ffbee142-32bf-4131-8d5b-a37cf7376b6a
+            region: content
+            configuration:
+              id: 'field_block:node:cachoeiras:field_site_oficial'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: above
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          6f898061-c695-4927-ad43-701e87ce9f64:
+            uuid: 6f898061-c695-4927-ad43-701e87ce9f64
+            region: content
+            configuration:
+              id: 'field_block:node:cachoeiras:field_imagem_da_cachoeira'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: above
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          95725b80-6543-42d5-b623-3fb1a2cff155:
+            uuid: 95725b80-6543-42d5-b623-3fb1a2cff155
+            region: content
+            configuration:
+              id: 'field_block:node:cachoeiras:field_altura_em_metros'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: number_integer
+                label: above
+                settings:
+                  thousand_separator: ''
+                  prefix_suffix: true
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          53080840-fe0a-4559-bcc0-a219d5d8801a:
+            uuid: 53080840-fe0a-4559-bcc0-a219d5d8801a
+            region: content
+            configuration:
+              id: 'field_block:node:cachoeiras:field_campo_localizacao'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          ec188833-7ce0-49f4-a910-5c9b5e543cd1:
+            uuid: ec188833-7ce0-49f4-a910-5c9b5e543cd1
+            region: content
+            configuration:
+              id: 'field_block:node:cachoeiras:field_dificulade'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: above
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+        third_party_settings: {  }
+id: node.cachoeiras.default
+targetEntityType: node
+bundle: cachoeiras
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_altura_em_metros:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_campo_localizacao:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 105
+    region: content
+  field_dificulade:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 106
+    region: content
+  field_imagem_da_cachoeira:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_site_oficial:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

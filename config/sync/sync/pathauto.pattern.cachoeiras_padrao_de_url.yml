@@ -1,0 +1,22 @@
+uuid: aef2f4f0-c58b-4753-bf34-2fba0d2be7fb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: cachoeiras_padrao_de_url
+label: 'Cachoeiras - Padrão de URL'
+type: 'canonical_entities:node'
+pattern: '/cachoeiras/[node:title]'
+selection_criteria:
+  9f1b74dc-9499-4ccf-8f10-f37269cc8d6d:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 9f1b74dc-9499-4ccf-8f10-f37269cc8d6d
+    context_mapping:
+      node: node
+    bundles:
+      cachoeiras: cachoeiras
+selection_logic: and
+weight: -5
+relationships: {  }

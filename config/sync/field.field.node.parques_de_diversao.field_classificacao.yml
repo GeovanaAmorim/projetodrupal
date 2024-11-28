@@ -1,0 +1,23 @@
+uuid: 729f54e2-1066-4d41-be46-0960de4a95c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_classificacao
+    - node.type.parques_de_diversao
+id: node.parques_de_diversao.field_classificacao
+field_name: field_classificacao
+entity_type: node
+bundle: parques_de_diversao
+label: Classificação
+description: 'Aqui você pode fornecer a sua recomendação'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 5
+  prefix: ''
+  suffix: ''
+field_type: integer

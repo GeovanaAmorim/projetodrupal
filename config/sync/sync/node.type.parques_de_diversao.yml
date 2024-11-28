@@ -1,0 +1,18 @@
+uuid: 9b8f255e-a6b2-4f30-989b-6a5cb65de83e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Parques de Diversão'
+type: parques_de_diversao
+description: "O Beto Carrero World é o maior parque temático da América Latina, localizado em Penha, Santa Catarina. Com uma vasta variedade de atrações para todas as idades, o parque é perfeito para famílias e amantes de aventura. O Beto Carrero oferece emocionantes montanhas-russas, shows ao vivo, e áreas temáticas inspiradas em filmes e na natureza.\r\n\r\nEntre as principais atrações, destacam-se a montanha russa Firewhip , a maior montanha russa invertida do Brasil, e o Hot Wheels Ultimate Drive , um passeio emocionante de carros radicais. O parque também conta com o Mundo Animal , uma área dedicada aos animais podem e à natureza, onde os visitantes veem shows de animais e aprendem sobre a conservação da fauna.\r\n\r\nPara quem busca diversão sem parar, o Beto Carrero oferece também a Roda-Gigante , que proporciona uma vista incrível do parque e da região. Além disso, o parque possui várias opções de alimentação, com restaurantes temáticos e food trucks, oferecendo uma grande variedade de pratos e lanches para todos os gostos.\r\n\r\nDurante o ano, o parque realiza eventos especiais, como o Festival de Natal , com apresentações de luzes e música, e o Halloween , com decoração e atrações especiais para o mês de outubro.\r\n\r\nCom estacionamento gratuito e de fácil acesso, o Beto Carrero World é um destino ideal para quem busca diversão, aventura e entretenimento de qualidade.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n"
+help: 'Digite o título da atração ou do local de forma clara e concisa. O título será exibido em todas as páginas relacionadas a essa atração ou local e deve resumir sua principal característica. Evite usar regulamentos muito longos ou informações irrelevantes.'
+new_revision: true
+preview_mode: 0
+display_submitted: true

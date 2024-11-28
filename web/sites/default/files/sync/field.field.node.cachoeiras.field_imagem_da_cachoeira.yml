@@ -1,0 +1,38 @@
+uuid: 51fab83d-16a0-4f96-b71e-c6d820529e7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagem_da_cachoeira
+    - node.type.cachoeiras
+  module:
+    - image
+id: node.cachoeiras.field_imagem_da_cachoeira
+field_name: field_imagem_da_cachoeira
+entity_type: node
+bundle: cachoeiras
+label: 'Imagem da Cachoeira'
+description: 'Carregue uma imagem representativa da cachoeira. A imagem será exibida na página de visualização'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: '2 MB'
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 1f868735-d058-4907-a92a-26ee2475ba55
+    alt: '"Imagem de uma cachoeira com águas cristalinas caindo sobre rochas, cercada por vegetação exuberante."'
+    title: 'Imagem da cachoeira '
+    width: 612
+    height: 408
+field_type: image

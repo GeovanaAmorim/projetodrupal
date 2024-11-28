@@ -1,0 +1,11 @@
+uuid: 26fe38a5-90bd-4651-9b66-21a2f84e4d70
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - node.type.parques_de_diversao
+id: node.parques_de_diversao
+target_entity_type_id: node
+target_bundle: parques_de_diversao
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,11 @@
+uuid: ecd9aaf2-5ae1-4790-bbfb-b3c818a9bba0
+langcode: pt-br
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+id: contact_message.feedback
+target_entity_type_id: contact_message
+target_bundle: feedback
+default_langcode: site_default
+language_alterable: false

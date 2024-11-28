@@ -1,0 +1,29 @@
+uuid: 23dbf6c1-b498-4106-8cda-12a9b33d0078
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_campo_localizacao
+    - node.type.cachoeiras
+    - taxonomy.vocabulary.localizacoes
+id: node.cachoeiras.field_campo_localizacao
+field_name: field_campo_localizacao
+entity_type: node
+bundle: cachoeiras
+label: Localização
+description: 'Selecione a localização a partir das opções disponívies. As opções incluem as regiões como Norte, Sul, Leste e Oeste'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      localizacoes: localizacoes
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

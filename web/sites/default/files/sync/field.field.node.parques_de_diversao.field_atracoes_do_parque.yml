@@ -1,0 +1,19 @@
+uuid: 5a29d900-ff88-43bf-8fd9-8dadddd725cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_atracoes_do_parque
+    - node.type.parques_de_diversao
+id: node.parques_de_diversao.field_atracoes_do_parque
+field_name: field_atracoes_do_parque
+entity_type: node
+bundle: parques_de_diversao
+label: 'Atrações do parque '
+description: "O Beto Carrero World tem muitas atrações, incluindo: \r\nBrinquedos radicais\r\nBig Tower, Fire Whip, Crazy River, Velozes e Furiosos, Super Carros, Free Fall, Portal da Escuridão, Pista de Kart \r\nBrinquedos infantis\r\nBaby Elefante, Carrossel, Pedalinho, Roda-Gigante, Xícaras Malucas, Acqua Boat, Kid Play \r\nShows\r\nHot Wheels Epic Show, Madagascar Circus Show, O Sonho do Cowboy, Acqua \r\nFotos com personagens\r\nFotos com Shrek e sua Turma, Fotos com Megamente e Metro Man, Fotos com Trolls \r\nOutras atrações \r\nSpin Blast \r\nSuper Soaker Splash \r\nRebuliço \r\nTrem Dinomagic \r\nTigor Mountain \r\nBarco Pirata \r\nAutopista \r\nStar Mountain \r\nDum Dum \r\nRaskapuska "
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

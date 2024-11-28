@@ -1,0 +1,26 @@
+uuid: dfbbe39b-76a2-4994-99bd-ce63811b9522
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.basic_html
+    - node.type.parques_de_diversao
+  module:
+    - text
+id: node.parques_de_diversao.body
+field_name: body
+entity_type: node
+bundle: parques_de_diversao
+label: Body
+description: 'Cadastro de parques de diversão, incluindo nome, descrição, imagens, localização e atrações.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: true
+  allowed_formats:
+    - basic_html
+field_type: text_with_summary

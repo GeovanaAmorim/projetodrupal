@@ -1,0 +1,19 @@
+uuid: fdba8a4e-1c3a-4231-9730-e58297570101
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_localizacao
+    - node.type.parques_de_diversao
+id: node.parques_de_diversao.field_localizacao
+field_name: field_localizacao
+entity_type: node
+bundle: parques_de_diversao
+label: 'Localização do parque'
+description: 'Rod. Beto Carrero World - Armação, Penha - SC, 88385-000'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

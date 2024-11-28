@@ -1,0 +1,26 @@
+uuid: f641b23c-da09-4a6e-93f5-65a6652ae844
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nome_do_parque
+    - filter.format.basic_html
+    - filter.format.full_html
+    - node.type.parques_de_diversao
+  module:
+    - text
+id: node.parques_de_diversao.field_nome_do_parque
+field_name: field_nome_do_parque
+entity_type: node
+bundle: parques_de_diversao
+label: 'Descrição longa'
+description: "**O Beto Carrero World** é um dos maiores parques de diversões do Brasil e oferece atrações para todas as idades:\r\n\r\n- **Montanhas-Russas**: Como a incrível \"Firewhip\", uma montanha-russa de inversões radicais.\r\n- **Shows ao Vivo**: Não perca o show do \"Zoológico de Animais\", com animais exóticos em ação.\r\n- **Roda-Gigante**: Aprecie uma vista panorâmica do parque a 90 metros de altura.\r\n\r\n**Dicas**:\r\n- **Horários**: O parque abre das 9h às 18h.\r\n- **Ingressos**: Acesse o site oficial para comprar ingressos e saber mais sobre as atrações.\r\n"
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - full_html
+field_type: text_long

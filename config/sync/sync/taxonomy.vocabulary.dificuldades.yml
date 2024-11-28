@@ -1,0 +1,9 @@
+uuid: 43b04445-1d49-4f78-84f4-6f6294e3f6f2
+langcode: en
+status: true
+dependencies: {  }
+name: Dificuldades
+vid: dificuldades
+description: null
+weight: 0
+new_revision: false
